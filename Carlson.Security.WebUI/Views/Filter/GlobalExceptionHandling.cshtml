@@ -1,0 +1,40 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";    
+}
+
+<h1>Global Exception Handling</h1>
+<p>It is never a good idea to expose any kind of exception information to users.</p>
+
+<p>Clicking this link will hit an end point that is setup to throw an error</p>
+<div class="row">
+    <div class="col-md-6">
+        <button id="throw-error">Throw Error</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6" id="error-results">
+        
+    </div>
+</div>
+
+<h2>Experiment</h2>
+<div class="row">
+    <div class="col-md-6">Comment/Uncomment out the line of the code in the WebApiFilterConfig.cs file that adds the exception filter</div>
+</div>
+
+<h2>Learn More</h2>
+<div class="row">
+    <ul>
+        <li>
+            <a href="http://www.asp.net/web-api/overview/error-handling/exception-handling">ASP.NET Exception Handling for WebAPI</a>
+        </li>
+        <li>
+            <a href="http://www.codeaperture.io/2016/06/28/use-exceptionfilter-to-hide-errors-in-your-webapi/">Exception Filters</a>
+        </li>
+    </ul>
+</div>
+
+@section scripts
+{
+    <script src="../../Scripts/GlobalExceptionFilter.js"></script>
+}
