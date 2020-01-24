@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Carlson.Security.WebUI", "Carlson.Security.WebUI\Carlson.Security.WebUI.vbproj", "{1668C86B-3D32-4117-9B43-28003EC58224}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Carlson.Security.Tests", "Carlson.Security.Tests\Carlson.Security.Tests.vbproj", "{6DCBBE7D-44EF-4412-B96B-55661B3A4B44}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Carlson.Security.API", "Carlson.Security.API\Carlson.Security.API.vbproj", "{CACFE38D-B82C-4669-945C-0E86715E5EA2}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Carlson.Security", "Carlson.Security\Carlson.Security.vbproj", "{55E05DCA-5890-437D-ACC3-A60E617C0267}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +25,19 @@ Global
 		{6DCBBE7D-44EF-4412-B96B-55661B3A4B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DCBBE7D-44EF-4412-B96B-55661B3A4B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DCBBE7D-44EF-4412-B96B-55661B3A4B44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CACFE38D-B82C-4669-945C-0E86715E5EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CACFE38D-B82C-4669-945C-0E86715E5EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CACFE38D-B82C-4669-945C-0E86715E5EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CACFE38D-B82C-4669-945C-0E86715E5EA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E05DCA-5890-437D-ACC3-A60E617C0267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E05DCA-5890-437D-ACC3-A60E617C0267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E05DCA-5890-437D-ACC3-A60E617C0267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E05DCA-5890-437D-ACC3-A60E617C0267}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50E799B0-9CBE-4EE6-A2AB-ADE92DBF83D1}
 	EndGlobalSection
 EndGlobal

@@ -111,9 +111,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Carlson.Security.API\Carlson.Security.API.vbproj">
+      <Project>{cacfe38d-b82c-4669-945c-0e86715e5ea2}</Project>
+      <Name>Carlson.Security.API</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Carlson.Security.WebUI\Carlson.Security.WebUI.vbproj">
       <Project>{1668C86B-3D32-4117-9B43-28003EC58224}</Project>
       <Name>Carlson.Security.WebUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Carlson.Security\Carlson.Security.vbproj">
+      <Project>{55e05dca-5890-437d-acc3-a60e617c0267}</Project>
+      <Name>Carlson.Security</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
